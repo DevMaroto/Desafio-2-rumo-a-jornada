@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://i.ibb.co/ydGm4j3/background-image.jpg) no-repeat
+    center/cover;
+  text-align: center;
+  padding-top: 275px;
+  height: 100vh;
+  font-family: "Cinzel", serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+  color: #ebf1fb;
+  font-family: "Beth Ellen", cursive;
+}
+
+h1 span {
+  color: rgba(94, 234, 212, 1);
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(235, 241, 251, 1);
+  margin-top: 4px;
+  margin-bottom: 72px;
+}
+
+a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgba(235, 241, 251, 1);
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+a:hover,
+.button-style {
+  background: rgba(94, 234, 212, 1);
+  color: rgba(11, 12, 14, 1);
+  border-radius: 8px;
+  text-decoration: none;
+}
